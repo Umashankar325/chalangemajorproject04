@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  padding: 10px 15px;
+}
+nav ul li:last-child {
+  color: white;
+  background-color: #48c89c;
+  border-radius: 5px;
+}
+nav h2 ,.bottomheading {
+  font-size: 40px;
+  color: #ff9442;
+}
+.pag1 {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  background-color: #f4faf7;
+}
+.container {
+  height: 65%;
+  width: 30%;
+  margin: 150px 200px;
+  position: relative;
+}
+.container p {
+  font-size: 20px;
+}
+.container h1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+.container button {
+  height: 50px;
+  width: 150px;
+  text-decoration: underline;
+  font-size: 20;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid #48c89c;
+  background-color: white;
+  margin: 20px 10px;
+  color: #48c89c;
+}
+.container .cv {
+  background-color: #48c89c;
+  color: white;
+}
+.container::first-line {
+  color: #ff9442;
+}
+.photo {
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/portrait-of-young-handsome-man-posing-in-studio-small.png);
+  height: 572px;
+  width: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 550px;
+  bottom: -82px;
+}
+.pag2 {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.pag2 > p {
+  font-size: 20px;
+  color: #ff9442;
+  margin-top: 100px;
+}
+.pag2 > h2 {
+  align-items: center;
+  font-size: 40px;
+  /* color: #; */
+  margin: 10px auto;
+  width: 700px;
+}
+.cardcontainer {
+  width: 70vw;
+  height: 80vh;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.pag2 .card {
+  /* border: 2px solid black; */
+  height: 260px;
+  width: 500px;
+  text-align: start;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #48c89bae;
+}
+.pag2 .card h3 {
+  font-size: 20px;
+}
+.pag2 .card p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.pag2 .card1 .img {
+  height: 120px;
+  width: 120px;
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/Icon-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pag2 .card2 .img {
+  height: 120px;
+  width: 120px;
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/Icon-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pag2 .card3 .img {
+  height: 120px;
+  width: 120px;
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/Icon-4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pag2 .card4 .img {
+  height: 120px;
+  width: 120px;
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/Icon-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.imagebar {
+  height: 57vh;
+  width: 100vw;
+  display: flex;
+  margin: 100px 0px;
+}
+.imagebar .pic {
+  height: 100%;
+  width: 33.3%;
+}
+.img1 {
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/elementor/thumbs/business-concept-tablet-with-information-chart-resize-p2scqogr8qux5bh769i1quekis957jd9sc01wi35no.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.img2 {
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/elementor/thumbs/marketing-manager-making-marketing-distribution-ch-resize-p2scqu3sdr2n2z909bxt5szc33hchpznt3wys5usmc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.img3 {
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/elementor/thumbs/discussing-analytical-data-at-meeting-resize-p2scqpelfkw7gxfu0rwobc61464if8h04gnjds1rhg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pag3 {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+}
+.pag3 > .container {
+  height: 80%;
+  width: 80%;
+
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 10px;
+}
+.pag3 > .container .left {
+  width: 45%;
+  height: 100%;
+}
+.pag3 > .container .left h3 {
+  font-size: 50px;
+  margin: 20px 0px;
+}
+.pag3 > .container .right {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+.pag3 > .container .right .part {
+  width: 40%;
+  height: 40%;
+}
+.pag3 > .container .heading {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.pag3 > .container .heading .logo {
+  font-size: 30px;
+  padding: 20px;
+  background-color: #48c89c;
+  border-radius: 10px;
+  margin-right: 20px;
+  color: white;
+}
+.pag3 > .container .heading h3 {
+  font-style: 50px;
+  /* color: darkblue; */
+}
+.pag3 > .container .right .part > p {
+  color: #646464;
+  font-size: 17px;
+  padding: 10px 2px;
+}
+.logocontainer {
+  width: 100%;
+  height: 200px;
+  background-color: #48c89c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoone {
+  margin: 10px 20px;
+  height: 80px;
+  width: 200px;
+}
+.logoone1 {
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/logo-8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logoone2 {
+  background: url( https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/logo-5.png );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logoone3 {
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/logo-4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logoone4 {
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/logo-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logoone5{
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/logo-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logoone6 {
+  background: url(https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/logo-11.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  width: 100%;
+  height: 70%;
+  background-color: #202430;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+footer ul li{
+  padding:10px 0px;
+}
+footer ul li:first-child{
+  /* color: red; */
+  font-size: 20px;
+  font-weight: 600;
+}
+footer ul li i{
+  margin-right: 20px;
+}
